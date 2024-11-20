@@ -1,0 +1,8 @@
+
+services:
+  app:
+    image: dario61081/nginx-php83-minimal:latest
+    container_name: test_nginx_php83
+    ports:
+      - "8099:80"
+    
